@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F8B1D3B13361BA4002AAC11 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F8B1D3A13361BA4002AAC11 /* UIKit.framework */; };
+		8F8B1D3D13361BA4002AAC11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F8B1D3C13361BA4002AAC11 /* Foundation.framework */; };
+		8F8B1D3F13361BA4002AAC11 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F8B1D3E13361BA4002AAC11 /* CoreGraphics.framework */; };
+		8F8B1D4113361BA4002AAC11 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F8B1D4013361BA4002AAC11 /* QuartzCore.framework */; };
+		8F8B1D4313361BA4002AAC11 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F8B1D4213361BA4002AAC11 /* OpenGLES.framework */; };
+		8F8B1D4913361BA4002AAC11 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8F8B1D4713361BA4002AAC11 /* InfoPlist.strings */; };
+		8F8B1D4C13361BA4002AAC11 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8B1D4B13361BA4002AAC11 /* main.m */; };
+		8F8B1D4F13361BA4002AAC11 /* Tutorial14AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8B1D4E13361BA4002AAC11 /* Tutorial14AppDelegate.m */; };
+		8F8B1D5213361BA4002AAC11 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F8B1D5013361BA4002AAC11 /* MainWindow.xib */; };
+		8F8B1D5913361BA4002AAC11 /* EAGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8B1D5813361BA4002AAC11 /* EAGLView.m */; };
+		8F8B1D5C13361BA4002AAC11 /* Tutorial14ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8B1D5B13361BA4002AAC11 /* Tutorial14ViewController.m */; };
+		8F8B1D5F13361BA4002AAC11 /* Tutorial14ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F8B1D5D13361BA4002AAC11 /* Tutorial14ViewController.xib */; };
+		A106909C171CE5E600ABE19A /* TBXMLParticleAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A1069099171CE5E600ABE19A /* TBXMLParticleAdditions.m */; };
+		A106909D171CE5E600ABE19A /* ParticleEmitter.m in Sources */ = {isa = PBXBuildFile; fileRef = A106909B171CE5E600ABE19A /* ParticleEmitter.m */; };
+		A10690A3171CE5F900ABE19A /* NSDataAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A10690A0171CE5F900ABE19A /* NSDataAdditions.m */; };
+		A10690A4171CE5F900ABE19A /* TBXML.m in Sources */ = {isa = PBXBuildFile; fileRef = A10690A2171CE5F900ABE19A /* TBXML.m */; };
+		A10690A7171CE60800ABE19A /* Texture2D.m in Sources */ = {isa = PBXBuildFile; fileRef = A10690A6171CE60800ABE19A /* Texture2D.m */; };
+		A10690AD171D26D500ABE19A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A10690AC171D26D500ABE19A /* libz.dylib */; };
+		A1251ACD17266B2200F09DD4 /* test.pex in Resources */ = {isa = PBXBuildFile; fileRef = A1251ACC17266B2200F09DD4 /* test.pex */; };
+		A1251ACF1726773F00F09DD4 /* explode.pex in Resources */ = {isa = PBXBuildFile; fileRef = A1251ACE1726773F00F09DD4 /* explode.pex */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8F8B1D3613361BA4002AAC11 /* Tutorial14.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tutorial14.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F8B1D3A13361BA4002AAC11 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8F8B1D3C13361BA4002AAC11 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8F8B1D3E13361BA4002AAC11 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8F8B1D4013361BA4002AAC11 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8F8B1D4213361BA4002AAC11 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		8F8B1D4613361BA4002AAC11 /* Tutorial14-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tutorial14-Info.plist"; sourceTree = "<group>"; };
+		8F8B1D4813361BA4002AAC11 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8F8B1D4A13361BA4002AAC11 /* Tutorial14-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tutorial14-Prefix.pch"; sourceTree = "<group>"; };
+		8F8B1D4B13361BA4002AAC11 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8F8B1D4D13361BA4002AAC11 /* Tutorial14AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tutorial14AppDelegate.h; sourceTree = "<group>"; };
+		8F8B1D4E13361BA4002AAC11 /* Tutorial14AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tutorial14AppDelegate.m; sourceTree = "<group>"; };
+		8F8B1D5113361BA4002AAC11 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		8F8B1D5713361BA4002AAC11 /* EAGLView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EAGLView.h; sourceTree = "<group>"; };
+		8F8B1D5813361BA4002AAC11 /* EAGLView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EAGLView.m; sourceTree = "<group>"; };
+		8F8B1D5A13361BA4002AAC11 /* Tutorial14ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tutorial14ViewController.h; sourceTree = "<group>"; };
+		8F8B1D5B13361BA4002AAC11 /* Tutorial14ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tutorial14ViewController.m; sourceTree = "<group>"; };
+		8F8B1D5E13361BA4002AAC11 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Tutorial14ViewController.xib; sourceTree = "<group>"; };
+		8F8B1D661336203A002AAC11 /* CommonOpenGL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonOpenGL.h; sourceTree = "<group>"; };
+		A1069098171CE5E600ABE19A /* TBXMLParticleAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBXMLParticleAdditions.h; sourceTree = "<group>"; };
+		A1069099171CE5E600ABE19A /* TBXMLParticleAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBXMLParticleAdditions.m; sourceTree = "<group>"; };
+		A106909A171CE5E600ABE19A /* ParticleEmitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParticleEmitter.h; sourceTree = "<group>"; };
+		A106909B171CE5E600ABE19A /* ParticleEmitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParticleEmitter.m; sourceTree = "<group>"; };
+		A106909F171CE5F900ABE19A /* NSDataAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDataAdditions.h; sourceTree = "<group>"; };
+		A10690A0171CE5F900ABE19A /* NSDataAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDataAdditions.m; sourceTree = "<group>"; };
+		A10690A1171CE5F900ABE19A /* TBXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBXML.h; sourceTree = "<group>"; };
+		A10690A2171CE5F900ABE19A /* TBXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBXML.m; sourceTree = "<group>"; };
+		A10690A5171CE60800ABE19A /* Texture2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Texture2D.h; sourceTree = "<group>"; };
+		A10690A6171CE60800ABE19A /* Texture2D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Texture2D.m; sourceTree = "<group>"; };
+		A10690A8171CE62900ABE19A /* Structures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Structures.h; sourceTree = "<group>"; };
+		A10690A9171CE62900ABE19A /* Global.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Global.h; sourceTree = "<group>"; };
+		A10690AC171D26D500ABE19A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		A1251ACC17266B2200F09DD4 /* test.pex */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.pex; sourceTree = "<group>"; };
+		A1251ACE1726773F00F09DD4 /* explode.pex */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = explode.pex; sourceTree = "<group>"; };
+		A13DCE5A1704F7BA00F41B1B /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F8B1D3313361BA4002AAC11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10690AD171D26D500ABE19A /* libz.dylib in Frameworks */,
+				8F8B1D3B13361BA4002AAC11 /* UIKit.framework in Frameworks */,
+				8F8B1D3D13361BA4002AAC11 /* Foundation.framework in Frameworks */,
+				8F8B1D3F13361BA4002AAC11 /* CoreGraphics.framework in Frameworks */,
+				8F8B1D4113361BA4002AAC11 /* QuartzCore.framework in Frameworks */,
+				8F8B1D4313361BA4002AAC11 /* OpenGLES.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F8B1D2B13361BA4002AAC11 = {
+			isa = PBXGroup;
+			children = (
+				A10690AC171D26D500ABE19A /* libz.dylib */,
+				8F8B1D4413361BA4002AAC11 /* Tutorial14 */,
+				8F8B1D3913361BA4002AAC11 /* Frameworks */,
+				8F8B1D3713361BA4002AAC11 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F8B1D3713361BA4002AAC11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F8B1D3613361BA4002AAC11 /* Tutorial14.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F8B1D3913361BA4002AAC11 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F8B1D3A13361BA4002AAC11 /* UIKit.framework */,
+				8F8B1D3C13361BA4002AAC11 /* Foundation.framework */,
+				8F8B1D3E13361BA4002AAC11 /* CoreGraphics.framework */,
+				8F8B1D4013361BA4002AAC11 /* QuartzCore.framework */,
+				8F8B1D4213361BA4002AAC11 /* OpenGLES.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8F8B1D4413361BA4002AAC11 /* Tutorial14 */ = {
+			isa = PBXGroup;
+			children = (
+				A1251ACC17266B2200F09DD4 /* test.pex */,
+				A1251ACE1726773F00F09DD4 /* explode.pex */,
+				A106909E171CE5EB00ABE19A /* TBXML */,
+				A13DCE5B1704F7D000F41B1B /* Particle Emitter */,
+				8F8B1D651336202E002AAC11 /* Common */,
+				8F8B1D4D13361BA4002AAC11 /* Tutorial14AppDelegate.h */,
+				8F8B1D4E13361BA4002AAC11 /* Tutorial14AppDelegate.m */,
+				8F8B1D5713361BA4002AAC11 /* EAGLView.h */,
+				8F8B1D5813361BA4002AAC11 /* EAGLView.m */,
+				8F8B1D5A13361BA4002AAC11 /* Tutorial14ViewController.h */,
+				8F8B1D5B13361BA4002AAC11 /* Tutorial14ViewController.m */,
+				8F8B1D5D13361BA4002AAC11 /* Tutorial14ViewController.xib */,
+				8F8B1D4513361BA4002AAC11 /* Supporting Files */,
+			);
+			path = Tutorial14;
+			sourceTree = "<group>";
+		};
+		8F8B1D4513361BA4002AAC11 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F8B1D5013361BA4002AAC11 /* MainWindow.xib */,
+				8F8B1D4613361BA4002AAC11 /* Tutorial14-Info.plist */,
+				8F8B1D4713361BA4002AAC11 /* InfoPlist.strings */,
+				8F8B1D4A13361BA4002AAC11 /* Tutorial14-Prefix.pch */,
+				8F8B1D4B13361BA4002AAC11 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8F8B1D651336202E002AAC11 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				A13DCE5A1704F7BA00F41B1B /* Common.h */,
+				8F8B1D661336203A002AAC11 /* CommonOpenGL.h */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		A106909E171CE5EB00ABE19A /* TBXML */ = {
+			isa = PBXGroup;
+			children = (
+				A106909F171CE5F900ABE19A /* NSDataAdditions.h */,
+				A10690A0171CE5F900ABE19A /* NSDataAdditions.m */,
+				A10690A1171CE5F900ABE19A /* TBXML.h */,
+				A10690A2171CE5F900ABE19A /* TBXML.m */,
+			);
+			name = TBXML;
+			sourceTree = "<group>";
+		};
+		A13DCE5B1704F7D000F41B1B /* Particle Emitter */ = {
+			isa = PBXGroup;
+			children = (
+				A1069098171CE5E600ABE19A /* TBXMLParticleAdditions.h */,
+				A1069099171CE5E600ABE19A /* TBXMLParticleAdditions.m */,
+				A106909A171CE5E600ABE19A /* ParticleEmitter.h */,
+				A106909B171CE5E600ABE19A /* ParticleEmitter.m */,
+				A10690A5171CE60800ABE19A /* Texture2D.h */,
+				A10690A6171CE60800ABE19A /* Texture2D.m */,
+				A10690A8171CE62900ABE19A /* Structures.h */,
+				A10690A9171CE62900ABE19A /* Global.h */,
+			);
+			name = "Particle Emitter";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F8B1D3513361BA4002AAC11 /* Tutorial14 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F8B1D6213361BA4002AAC11 /* Build configuration list for PBXNativeTarget "Tutorial14" */;
+			buildPhases = (
+				8F8B1D3213361BA4002AAC11 /* Sources */,
+				8F8B1D3313361BA4002AAC11 /* Frameworks */,
+				8F8B1D3413361BA4002AAC11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tutorial14;
+			productName = Tutorial14;
+			productReference = 8F8B1D3613361BA4002AAC11 /* Tutorial14.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F8B1D2D13361BA4002AAC11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Personal;
+			};
+			buildConfigurationList = 8F8B1D3013361BA4002AAC11 /* Build configuration list for PBXProject "Tutorial14" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8F8B1D2B13361BA4002AAC11;
+			productRefGroup = 8F8B1D3713361BA4002AAC11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F8B1D3513361BA4002AAC11 /* Tutorial14 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F8B1D3413361BA4002AAC11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F8B1D4913361BA4002AAC11 /* InfoPlist.strings in Resources */,
+				8F8B1D5213361BA4002AAC11 /* MainWindow.xib in Resources */,
+				8F8B1D5F13361BA4002AAC11 /* Tutorial14ViewController.xib in Resources */,
+				A1251ACD17266B2200F09DD4 /* test.pex in Resources */,
+				A1251ACF1726773F00F09DD4 /* explode.pex in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F8B1D3213361BA4002AAC11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F8B1D4C13361BA4002AAC11 /* main.m in Sources */,
+				8F8B1D4F13361BA4002AAC11 /* Tutorial14AppDelegate.m in Sources */,
+				8F8B1D5913361BA4002AAC11 /* EAGLView.m in Sources */,
+				8F8B1D5C13361BA4002AAC11 /* Tutorial14ViewController.m in Sources */,
+				A106909C171CE5E600ABE19A /* TBXMLParticleAdditions.m in Sources */,
+				A106909D171CE5E600ABE19A /* ParticleEmitter.m in Sources */,
+				A10690A3171CE5F900ABE19A /* NSDataAdditions.m in Sources */,
+				A10690A4171CE5F900ABE19A /* TBXML.m in Sources */,
+				A10690A7171CE60800ABE19A /* Texture2D.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8F8B1D4713361BA4002AAC11 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F8B1D4813361BA4002AAC11 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8F8B1D5013361BA4002AAC11 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F8B1D5113361BA4002AAC11 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		8F8B1D5D13361BA4002AAC11 /* Tutorial14ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F8B1D5E13361BA4002AAC11 /* en */,
+			);
+			name = Tutorial14ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F8B1D6013361BA4002AAC11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8F8B1D6113361BA4002AAC11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		8F8B1D6313361BA4002AAC11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tutorial14/Tutorial14-Prefix.pch";
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				INFOPLIST_FILE = "Tutorial14/Tutorial14-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8F8B1D6413361BA4002AAC11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tutorial14/Tutorial14-Prefix.pch";
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				INFOPLIST_FILE = "Tutorial14/Tutorial14-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F8B1D3013361BA4002AAC11 /* Build configuration list for PBXProject "Tutorial14" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F8B1D6013361BA4002AAC11 /* Debug */,
+				8F8B1D6113361BA4002AAC11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F8B1D6213361BA4002AAC11 /* Build configuration list for PBXNativeTarget "Tutorial14" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F8B1D6313361BA4002AAC11 /* Debug */,
+				8F8B1D6413361BA4002AAC11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F8B1D2D13361BA4002AAC11 /* Project object */;
+}
